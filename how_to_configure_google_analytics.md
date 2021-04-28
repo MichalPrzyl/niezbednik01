@@ -19,8 +19,8 @@ Then it requires to put a JavaScript code in your site code.
 
 ```
 function help_me_god(){
-	wp_enqueue_script('skrypt', 'http://j0ker.cba.pl/wp-content/themes/envo-marketplace/skrypt.js', false);
-    wp_enqueue_script('skrypt2', 'https://www.googletagmanager.com/gtag/js?id=G-MD546GJCJ5', false);
+	wp_enqueue_script('skrypt', 'http://link_to_your_script_on_serwer_with_relative_path', false);
+    wp_enqueue_script('skrypt2', 'https://link_to_script_that_google_analytics_gave_you_to_script_href', false);
 }
 
 add_action('wp_enqueue_scripts', 'help_me_god');
